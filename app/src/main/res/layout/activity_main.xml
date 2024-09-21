@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Temperature Converter App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/enterTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter Temprature "
+        android:text=" "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/CtoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Celcius To Fahrenheit"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/FtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Fahrenheit to Celcius"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/ResultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Result" />
+
+
+</LinearLayout>
